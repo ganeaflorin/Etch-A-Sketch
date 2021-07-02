@@ -1,5 +1,6 @@
 let container = document.querySelector("#container");
-const BACKGROUND_COLOR = "rgb(255, 244, 228)";
+// const BACKGROUND_COLOR = "rgb(255, 244, 228)";
+const BACKGROUND_COLOR = "#2ccc94";
 let isRandomColor = false;
 init();
 
