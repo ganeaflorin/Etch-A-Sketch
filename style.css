@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(255, 244, 228);
+    font-family: zillaslab, palatino, "Palatino Linotype", serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container {
+    border: 1px solid black;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    max-width: 40%;
+    /* max-height: 80%; */
+}
+
+#contact {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.github-logo {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+#contact>p {
+    white-space: nowrap;
+}
